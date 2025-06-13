@@ -44,27 +44,28 @@ Modelado_Eval_Final/
 ## 🧰 Requisitos e instalación
 
 1. Clona el repositorio:
-   ```bash
-    git clone https://github.com/WalterRochaSevilla/Modelado_Eval_Final.git
-    cd Modelado_Eval_Final
-    ```
+```bash
+git clone https://github.com/Zatt010/NeuroHealth
+cd NeuroHealth/predictive_model
+```
+
 2. Crea un entorno virtual (opcional):
-    ```bash
-        python3 -m venv venv
-        source venv/bin/activate
-    ```
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 ## ▶️ Cómo usar
 ### Notebooks (.ipynb)
     - Ábrelos con Jupyter:
-    ```bash
-        jupyter notebook
-    ```
+```bash
+jupyter notebook
+```
     - Ejecuta cada celda en orden hasta la última para reproducir análisis completos.
 ### Script (RedNeuronal.py)
     - Ejecuta directamente en terminal/IDE:
-    ```bash
-        python RedNeuronal.py
-    ```
+```bash
+python RedNeuronal.py
+```
     - Modifica hiperparámetros (tasa de aprendizaje, epochs, capas) según sea necesario.
 
 ## ✅ Resultados esperados
